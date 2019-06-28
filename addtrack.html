@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Panel || Add Track</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="topadminmenu">
+			<h2>Admin Panel</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="logout.html">Logout</a></li>
+			</ul>
+		</div>
+		<div class="leftadminmenu">
+			<div class="sameadminsidebar">
+				<h2>Theme Option</h2>
+				<ul>
+					<li><a href="header.html">Header Option</a></li>
+					<li><a href="footer.html">Footer Option</a></li>
+				</ul>
+			</div>
+			<div class="sameadminsidebar">
+				<h2>Track</h2>
+				<ul>
+					<li><a href="addtrack.html">Add Track</a></li>
+				</ul>
+			</div>
+			<div class="sameadminsidebar">
+				<h2>Category Option</h2>
+				<ul>
+					<li><a href="category.html">Add Category</a></li>
+				</ul>
+			</div>
+			<div class="sameadminsidebar">
+				<h2>User Option</h2>
+				<ul>
+					<li><a href="user.html">User Management</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="maincontent">
+			<div class="content">
+				<h2>Add Track</h2>
+				<form action="" method="post" enctype="multipart/form-data">
+					<table>
+						<tr>
+							<td>Title: </td>
+							<td><input type="text" name="title" placholder="Please enter a title"></td>
+						</tr>
+
+						<tr>
+							<td>Description: </td>
+							<td><textarea></textarea></td>
+						</tr>
+
+						<tr>
+							<td>Upload Image: </td>
+							<td><input type="file" name="image"></td>
+						</tr>
+
+						<tr>
+							<td>Category: </td>
+							<td>
+								<select name="category">
+									<option value="health">Health</option>
+									<option value="sport">Sport</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>Bit Rate: </td>
+							<td><input type="text" name="bitrate" placholder="Please enter bit rate"></td>
+						</tr>
+
+						<tr>
+							<td>Track Length: </td>
+							<td><input type="text" name="tracklength" placholder="Please enter track length"></td>
+						</tr>
+
+						<tr>
+							<td>Price: </td>
+							<td><input type="text" name="price" placholder="Please enter price"></td>
+						</tr>
+						
+						<tr>
+							<td></td>
+							<td><input type="submit" name="submit" value="Add"></td>
+						</tr>
+					</table>
+				</form>
+
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h4>&copy; 2019 Audio Jungle Ltd. Trademarks and brands are the property of their respective owners.</h4>
+	</div>
+	
+
+</body>
+</html>

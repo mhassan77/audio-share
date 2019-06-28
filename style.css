@@ -1,0 +1,95 @@
+.main{
+	width: 920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.topadminmenu{background: #333;height: 120px;}
+.topadminmenu h2{text-align: center;color: #3F596A;padding: 20px;}
+.topadminmenu ul{margin: 0;padding: 0;list-style: none;float: right;}
+.topadminmenu ul li{display: block;float: left;}
+.topadminmenu ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 5px 15px;
+	margin-left: 1px;
+	}
+.topadminmenu ul li a:hover{color: #3F596A}
+
+
+.leftadminmenu{background: #333; width: 250px;margin-right: 20px;float: left;}
+.sameadminsidebar{}
+.sameadminsidebar h2{
+	background: #444;
+	border: 2px solid #333;
+	color: #ddd;
+	padding: 2px 10px;
+}
+.sameadminsidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sameadminsidebar ul li{
+	border-bottom: 1px solid #444;
+	color: #ddd;
+	padding: 5px 10px;
+}
+.sameadminsidebar ul li:last-child{
+	border-bottom: 0px solid #444;
+	color: #ddd;
+	padding: 5px 10px;
+}
+.sameadminsidebar ul li a{
+	color: #ddd;
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	
+}
+.sameadminsidebar ul li a:hover{color: #3F596A}
+
+.maincontent{width: 630px;float: right;}
+.content{padding: 20px;}
+.content h2{ margin: 10px; padding: 5px; }
+.footer{background: #333;height: 40px;width: 930px;margin-left: 26.5%}
+.footer h4{padding: 10px;color:#fff;text-align: center;}
+
+input[type="text"], input[type="email"], input[type="password"]{
+	border: 1px solid #ddd;
+	color: #666;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding: 5px;
+	width: 300px; 
+}
+input[type="file"]{
+	margin-left: 20px;
+}
+input[type="submit"]{
+	background: #3F596A;
+	margin-left: 20px;
+	border: 1px solid #333;
+	color: #ddd;
+	padding: 2px 10px;
+	width: 313px;
+	height: 40px;
+}
+select{
+	border: 1px solid #ddd;
+	color: #333;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding: 5px;
+	width: 312px;
+}
+.content textarea{margin-left: 20px;margin-bottom: 5px;width: 305px;height: 60px;}
+.categoryoption{margin-top: 20px;}
+.categoryoption h2{margin: 10px; padding: 5px;}
+.sampleTable{width: 100%}
+.sampleTable a{text-decoration: none}
+.sampleTable th{text-align: center; background: #333;color: #fff;padding: 5px}
+.sampleTable td{text-align: center; padding: 5px;}
+.sampleTable tr:nth-child(2n+1){}
+.sampleTable tr:nth-child(2n){background: #ddd}
